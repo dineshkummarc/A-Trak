@@ -498,6 +498,11 @@ body     { pointer-events: none; }
 .step h6 {
     font-size: 50%;
 }
-.step p {
+.step p, ul li {
     font-size: 75%;
+}
+
+.step ul.col {
+  float: left;
+  width: 32%;
 }
