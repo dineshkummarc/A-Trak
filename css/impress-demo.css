@@ -113,7 +113,7 @@ body     { pointer-events: none; }
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
-    font-family: 'PT Serif', georgia, serif;
+    font-family: 'Calibri', georgia, serif;
 
     font-size: 48px;
     line-height: 1.5;
@@ -129,7 +129,7 @@ body     { pointer-events: none; }
 
 /* fade out inactive slides */
 .step:not(.active) {
-    opacity: 0.3;
+    opacity: 0.1;
 }
 
 /* STEP SPECIFIC STYLES */
@@ -439,7 +439,7 @@ body     { pointer-events: none; }
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
     border: 1px solid rgba(0, 0, 0, .3);
 
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
 
     color: rgb(102, 102, 102);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
@@ -494,3 +494,10 @@ body     { pointer-events: none; }
     display: block;
 }
 
+.step h2 { font-size: 120%; }
+.step h6 {
+    font-size: 50%;
+}
+.step p {
+    font-size: 75%;
+}
